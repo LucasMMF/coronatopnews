@@ -1,0 +1,426 @@
+/*---------------HEADER-------------*/
+
+/*------------Área cinza-----------*/
+.top1 /*define a área cinza*/
+{
+	width: 100%;
+	height: 40px;
+	background-color: #F2F2F2;
+}
+
+.top-info1 /*define o tamanho e localização do site para o topo*/
+{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.infog /*infog == info geral, ex.: telefone, whatsapp, etc.*/
+{
+	position: absolute;
+	top: 9px;
+	right: 19px;
+	font-size: 92%;
+}
+
+.infog li
+{
+	display: inline;
+	margin-left: 24px;
+}
+
+.msg1{margin-right: 5px;}
+
+/*------------Área cinza-----------*/
+
+/*------------Área branca---------*/
+.top2 /*define a área branca*/
+{
+	width: 100%;
+	height: 85px;
+	padding-top: 10px;
+}
+
+.top-info2 /*define o tamanho e localização do site para o topo*/
+{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo
+{
+	position: absolute;
+	left: 24px;
+}
+
+#menu-opcoes
+{
+	position: absolute;
+	top: 25px;
+	right: 22px;
+}
+
+#menu-opcoes ul li
+{
+	display: inline;
+	margin-left: 40px;
+	font-size: 18px;
+}
+
+#menu-opcoes a
+{
+	color: #777777;
+	text-decoration: none;
+	border-bottom: 8px solid transparent;
+}
+
+#menu-opcoes a:hover 
+{
+	border-bottom: 8px solid #DA372F;
+	transition: .5s ease-in;
+}
+/*------------Área Branca---------*/
+
+/*------------Área Azul----------*/
+.top3
+{
+	width: 100%;
+	height: 5px;
+	background-color: #1489C7;
+
+}
+
+/*------------Área Azul----------*/
+
+/*---------------HEADER-------------*/
+
+
+
+/*---------------MAIN SECTION-------*/
+
+/*--------------PROJETOS-----------*/
+/*
+	p_ é um padrão para representar tudo relacionado a sessão "NOTÍCIAS"
+	el_inline é para os elementos da sessão "NOTÍCIAS" que devem ser exibidos inline
+	p_img é para as imagens ao lado esquerdo dos textos
+	p_title é o titulo do texto
+	p_info é o resumo do texto que será encontrado naquela página
+*/
+.noticias
+{
+	color: #777777;
+	font-size: 37px;
+	margin-top: 30px;
+}
+
+.p_part1
+{
+	margin: 0 auto;
+	width: 1200px;
+	height: 150px;
+	margin-top: 52px;
+}
+
+.el_inline1
+{
+	width: 380px;
+	float: left;
+	padding-left: 80px;
+}
+
+.p_img1
+{
+	float: left;
+	margin-left: 20px;
+}
+
+.el_inline1 a{text-decoration: none;}
+
+.p_title1
+{
+	font-weight: bold;
+	text-align: left;
+	margin-left: 130px;
+	color: #000;
+}
+
+.p_info1
+{
+	width: 250px;
+	float: right;
+	text-align: left;
+	color: #777;
+}
+
+.p_info1:hover
+{
+	color: #DF3F35;
+	transition: .5s ease-in;
+}
+
+.p_part2
+{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.p_part2 iframe
+{
+	padding-top: 30px;
+	padding-left: 100px;
+}
+
+.p_part3
+{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100px;
+	padding-top: 30px;
+}
+
+.p_part3 audio
+{
+	padding-top: 10px;
+	padding-left: 120px;
+}
+
+.el_inline2
+{
+	width: 500px;
+	float: left;
+	padding-left: 50px;
+}
+
+/*
+	a_cinza representa a área cinza
+	hope é a classe da foto do candidato
+*/
+
+.conhecendo
+{
+	margin: 0 auto;
+	width: 1200px;
+	height: 371px;
+	position: relative;
+}
+
+.a_cinza
+{
+	position: absolute;
+	width: 1200px;
+	height: 230px;
+	top: 69px;
+	background: #EEE;
+}
+
+.a_cinza h4
+{
+	position: relative;
+	left: 400px;
+	bottom: 72px;
+	width: 800px;
+	font-weight: bold;
+	font-size: 35px;
+	color: #1489C7;
+}
+
+.a_cinza p
+{
+	width: 1113px;
+	position: relative;
+	left: 52px;
+	bottom: 40px;
+	text-align: left;
+	color: #777;
+}
+
+.a_cinza h6
+{
+	position: relative;
+	width: 800px;
+	top: 20px;
+	left: 52px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #DF3F35;
+}
+
+.a_cinza ul
+{
+	position: relative;
+	width: 700px;
+	left: 500px;
+	bottom: 31px;
+	padding: 0;
+}
+
+.a_cinza ul li
+{
+	display: inline;
+	margin-left: 9px;
+}
+
+/*---------------BASE----------------*/
+
+.base
+{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+/*----------------MAIN--------------*/
+
+.base main
+{
+	width: 860px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.p_sum /* Sumário inicial breve do texto */
+{
+	color: #DF3F35;
+	font-weight: bold;
+}
+
+.base main h2
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+.base main p{text-align: left;}
+
+/*
+	cl representam as caixas de input do formulário
+	btn representa o botão de envio
+	rst representa o botão de resetar os campos
+*/
+
+#formulario{border: 5px inset;}
+
+#formulario p
+{
+	margin-left: 300px;
+	margin-bottom: 10px;
+}
+
+.cl0
+{
+	border: 1px inset #000;
+	margin-left: 20px;
+}
+
+.cl1{border: 1px inset #000;}
+
+.cl2
+{
+	border: 1px inset #000;
+	margin-left: 20px;
+}
+.cl3
+{
+	border: 1px inset #000;
+	margin-left: 16px;
+}
+.cl4{border: 1px inset #000;}
+
+.btn{padding: 7px 12px; border: 2px solid #000; border-radius: 4px;}
+
+.rst
+{
+	padding: 7px 12px;
+	border: 2px solid #000;
+	border-radius: 4px;
+	margin-left: 40px;
+}
+
+/*---------------MAIN SECTION-------*/
+
+
+
+/*----------------FOOTER-----------*/
+
+footer{margin-top: 21px;}
+
+/* bttm1_ é um padrão para identificar elementos pertencentes ao bottom1 */
+
+.bottom1
+{
+	margin: 0 auto;
+	position: relative;
+	width: 1200px;
+	height: 320px;
+	background: #555;
+}
+
+.bttm1_menu
+{
+	list-style-type: none;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+.bttm1_menu h4
+{
+	font-weight: bold;
+	color: #FFF;
+}
+
+.bttm1_menu li
+{
+	margin-left: 10px;
+	margin-top: 18px;
+	font-size: 15px;
+}
+
+/* sessão de links úteis */
+.bttm1_links
+{
+	list-style-type: none;
+	position: absolute;
+	top: 20px;
+	left: 242px;
+}
+
+.bttm1_links h4
+{
+	font-weight: bold;
+	color: #FFF;
+}
+
+.bttm1_links li
+{
+	margin-left: 10px;
+	margin-top: 18px;
+	font-size: 15px;
+}
+
+/* autor & back-to-top */
+
+.bottom2
+{
+	margin: 2px auto;
+	bottom: 5px;
+	width: 1200px;
+	height: 40px;
+	background: #3E3E3E;
+}
+
+.bottom2 small
+{
+	position: relative;
+	top: 3px;
+	left: 10px;
+	color: #FFF;
+}
+
+.bottom2 img
+{
+	position: relative;
+	left: 920px;
+}
+
+/*----------------FOOTER-----------*/
